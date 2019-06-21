@@ -21,7 +21,7 @@ import {apiService} from './api.service';
   styleUrls: ['datepicker-moment-example.css'],
 })
 export class DatepickerMomentExample implements OnInit {
-  initialComponentDate = moment.utc();
+  initialComponentDate = moment();
   // Datepicker takes `Moment` objects instead of `Date` objects.
   fcDate = new FormControl();
   fcDate2 = new FormControl();

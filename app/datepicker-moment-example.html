@@ -1,6 +1,11 @@
 <pre>
   initialComponentDate
-  {{initialComponentDate}}
+  moment()
+    {{ initialComponentDate }}
+  moment().utc()
+    {{ initialComponentDate.utc() }}
+  moment().utc().local()
+    {{ initialComponentDate.utc().local() }}
 </pre>
 
 <mat-form-field>
