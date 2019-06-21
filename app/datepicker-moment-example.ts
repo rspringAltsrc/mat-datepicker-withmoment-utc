@@ -22,8 +22,8 @@ import {apiService} from './api.service';
 })
 export class DatepickerMomentExample implements OnInit {
   // Datepicker takes `Moment` objects instead of `Date` objects.
-  fcDate = new FormControl(moment());
-  fcDate2 = new FormControl('');
+  fcDate = new FormControl();
+  fcDate2 = new FormControl();
   constructor(private api: apiService){}
 
   ngOnInit() {
